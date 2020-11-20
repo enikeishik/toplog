@@ -8,7 +8,8 @@ Simple script to logging top processes that load CPU.
 
 1. Just download toplog.php and put it to home (or any another) folder.
 2. Create folder for log files (default /var/log/toplog).
-3. Create cron job:
+3. Copy config for logrotate (toplog.logrotate.conf) into logrotate dir (default /var/etc/logrotate.d).
+4. Create cron job:
 
 
 ```bash
